@@ -34,3 +34,14 @@ let input = "Count how many vowels I have!"
 ```
 
 ***
+## Question 3
+
+Given a string with multiple words. Reverse the string word by word.
+
+Example:
+
+Sample Input: `"Swift is the best language"`
+
+Sample Output: `"language best the is Swift"`
+
+***
