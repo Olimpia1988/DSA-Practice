@@ -20,3 +20,17 @@ Output:
 `description`
 
 Hint: Keep track of the longest word you encounter and also keep track of its length.
+
+
+***
+## Question 2
+
+Given a string in English, create a tuple containing the number of vowels and consonants.
+
+```swift
+let vowels = "aeiou"
+let consonants = "bcdfghjklmnpqrstvwxyz"
+let input = "Count how many vowels I have!"
+```
+
+***
