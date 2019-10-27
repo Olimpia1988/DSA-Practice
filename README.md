@@ -1,6 +1,6 @@
 # DSA-Practice
 
-## String: 
+## Strings
 
 ## Question 1
 
