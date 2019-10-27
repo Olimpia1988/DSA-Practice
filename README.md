@@ -45,3 +45,24 @@ Sample Input: `"Swift is the best language"`
 Sample Output: `"language best the is Swift"`
 
 ***
+
+
+## Question 4
+
+You are given a string representing an **attendance record** for a student. The record only contains the following three characters:
+
+`'A' : Absent.`
+
+`'L' : Late.`
+
+`'P' : Present.`
+
+If a student has more than one 'A' or more than 2 continuous 'L's that student should not be rewarded. Print true if student is to be rewarded and False if they shouldn't.
+
+Example:
+
+Sample Input: `"PPALLP"`
+
+Sample Output: `true`
+
+***
