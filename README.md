@@ -66,3 +66,15 @@ Sample Input: `"PPALLP"`
 Sample Output: `true`
 
 ***
+## Question 5
+
+Given a string of words separated by a `" "`. Write code that prints out the length of the last word.
+
+If there is no last word print out `"No last word"`.
+
+Example:
+Input: `"How are you doing this Monday?"`
+
+Output: `7`
+
+***
