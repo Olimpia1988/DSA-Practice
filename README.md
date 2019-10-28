@@ -268,7 +268,7 @@ combineArrays(array1,array2) {
 
 Output: `[5,10,15,12]`
 
-## Question 16
+## Question 20
 
 a) Write a function called `myFilter` that takes an array of Doubles and a closure as parameters and returns an array of Doubles. The closure should take a Double and return a Bool. The function should apply the closure to the doubles in the array.
 
