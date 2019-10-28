@@ -79,6 +79,10 @@ Output: `7`
 
 ***
 
+## Arrays
+
+***
+
 ## Question 6
 
 Given an array of Ints, find out if it contains a target number.  
