@@ -148,7 +148,7 @@ Using for loops, rotate `matrixToRotate` 90 degrees.
 
 var matrixToRotate = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-![Matrix Rotation](images/rotated_matrix.jpeg)
+
 
 ***
 
@@ -203,5 +203,99 @@ Output: "Person 3"
 ```swift
 
 // Your code here
+```
+
+*** 
+
+## Closures 
+***
+
+## Question 16
+
+Use `filter` to create an array called `multiples` that contains all the multiples of 3 from `numbers` and then print it.
+
+`let numbers = [1, 2, 3, 4, 6, 8, 9, 3, 12, 11]`
+
+Example:
+Input: `let numbers = [1, 2, 3, 4, 6, 8, 9, 3, 12, 11]`
+
+Expected values: `multiples = [3, 6, 9, 3, 12]`
+
+
+## Question 17
+
+Find the largest number from `numbers` and then print it. Use `reduce` to solve this exercise.
+
+Example:
+Input: `let numbers = [4, 7, 1, 9, 6, 5, 6, 9]`
+
+Output: `9`
+
+
+## Question 18
+
+Find the sum of the squares of all the odd numbers from `numbers` and then print it.
+
+`var numbers = [1, 2, 3, 4, 5, 6]`
+
+a. Write code that removes all the odd numbers from the array.
+
+b. Write code that squares all the numbers in the array.
+
+c. Write code that finds the sum of the array.
+
+d. Now use `map`, `filter` and `reduce` to solve this problem.
+
+Example:
+Input: `var numbers = [1, 2, 3, 4, 5, 6]`
+
+Output: `35 // 1 + 9 + 25 -> 35`
+
+## Question 19
+
+Implement a function `combineArrays` that takes 2 arrays and a closure that combines 2 Ints into a single Int. The function combines the two arrays into a single array using the provided closure. Assume that the 2 arrays have equal length.
+
+Example:
+Input:
+
+```swift
+var array1 = [1,2,3,4]
+var array2 = [5,5,5,3]
+combineArrays(array1,array2) {
+    $0 * $1
+}
+```
+
+Output: `[5,10,15,12]`
+
+## Question 16
+
+a) Write a function called `myFilter` that takes an array of Doubles and a closure as parameters and returns an array of Doubles. The closure should take a Double and return a Bool. The function should apply the closure to the doubles in the array.
+
+`let theDoubles = [11.45, 3.2, 4.0, 5.67, 58.65, 66.0, 5.2, 5.0]`
+
+b) Define a closure assigned to a constant called `biggerThanTen` that takes a double and returns true if it is greater or equal to 10.0 and pass it to `myFilter`.
+
+c) Define a closure assigned to a constant called `wholeNumber` that takes a double and returns true if it is a whole number and pass it to `myFilter`.
+
+d) Define a closure assigned to a constant called `justEven` that takes a double and returns true if the number to the left of the point is even and pass it to `myFilter`.
+
+e. Use the built in filter method on `theDoubles` to recreate the answers for b, c and d.
+
+Example
+Input:
+
+```swift
+let a = myFilter(arr: theDoubles, filter: biggerThanTen)
+let b = myFilter(arr: theDoubles, filter: wholeNumber)
+let c = myFilter(arr: theDoubles, filter: justEven)
+```
+
+output:
+
+```swift
+a. [11.45, 58.65, 66]
+b. [4, 66, 5]
+c. [4, 58.65, 66]
 ```
 
