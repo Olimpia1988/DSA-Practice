@@ -120,49 +120,88 @@ target = 3
 
 ## Question 7
 
-Find the largest value in an array of Int.  Do not use the built-in `max()` method.
+Given an Array of Tuples of type `(Int, Int)`, create an array containing all the tuples where the first Int is equal to the second Int.
 
-```swift
-let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int($0)}
+Input: `[(4,2), (-3,-3), (1,1), (3,9)]`
 
-//This creates an array of 100 numbers in between 0 and 200.  For now, you don't need to worry about how it does that.
-```
+Output: `[(-3,-3), (1,1)]`
 
-***
+
 
 ## Question 8
 
-Append every Int that appears in both `listOne` and `listTwo` to the `sharedElements` array. Then print **how many Ints** are shared.
+Print out each element in `myMatrix`
 
-```swift
-var listOne = [28, 64, 7, 96, 13, 32, 94, 11, 80, 68]
-var listTwo = [18, 94, 48, 6, 42, 68, 79, 76, 13, 7]
-var sharedElements = [Int]()
-```
+`var myMatrix = [[10, 14, 12], [91, 1, 9], [31, 3, 21]]`
+
 
 ## Question 9
 
-Write code such that `noDupeList` has all the same Ints as `dupeFriendlyList`, but has no more than one of each Int.
+Print out the sum of the diagonals of `myMatrix`.
 
-```swift
-var dupeFriendlyList = [4,2,6,2,2,6,4,9,2,1]
-var noDupeList: [Int] = []
-```
+`var myMatrix = [[10, 14, 12], [91, 1, 9], [31, 3, 21]]`
 
-***
 
 ## Question 10
 
-Identify if there are 3 integers that sum to 10 in the following array. If so, print them as a triplet. If there are multiple triplets, print all possible triplets.
+Using for loops, rotate `matrixToRotate` 90 degrees.
 
-`var tripleSumArr = [-20,-14, -8,-5,-3,-2,1,2,3,4,9,15,20,30]`
+var matrixToRotate = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+![Matrix Rotation](images/rotated_matrix.jpeg)
+
+***
+
+## Functions
+
+***
+
+## Question 11
+Write a function that prints the numbers from 1 to x, except:
+
+If the number if a multiple of 3, print "Fizz" instead of the number If the number is a multiple of 5, print "Buzz" instead of the number If the number is a multiple of 3 AND 5, print "FizzBuzz" instead of the number Your function should take in one parameter: x (the number to count up to)
+```swift
+
+// Your code here
+```
 
 
-## Bonus Question
 
-Given an array of Strings, find the the String with the most "a"s in it.
+## Question 12
+Write a function named reverse that takes an array of integers named numbers as a parameter. The function should return an array with the numbers from numbers in reverse order.
 
-input: `["apes", "abba", "apple"]`
+Example: Input: reverse([1, 2, 3])
 
-output: `"abba"`
+Output: [3, 2, 1]
+
+```swift
+
+// Your code here
+```
+
+## Question 13
+Write a function that prints out the most frequently appearing Int in an array of Int.
+
+```swift
+
+// Your code here
+```
+
+## Question 14
+Write a function that sums all the even indices of an array of Ints.
+```swift
+
+// Your code here
+```
+
+## Question 15
+Write a function that finds the person with the second highest test score in a Dictionary that maps names to scores.
+
+Example: Input: ["Person 1": 83, "Person 2": 74, "Person 3": 82]
+
+Output: "Person 3"
+```swift
+
+// Your code here
+```
 
